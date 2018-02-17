@@ -540,6 +540,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickMecanumCartesianMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMecanumCartesianMapping.vi"/>
 				<Item Name="WPI_JoystickButtonSpinMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonSpinMapping.vi"/>
 				<Item Name="WPI_JoystickMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickMapping.vi"/>
+				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
+				<Item Name="WPI_DriverStationGame Specific Data.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGame Specific Data.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -559,15 +561,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Shooter Controller.vi" Type="VI" URL="../Shooter/Implementation/Shooter Controller.vi"/>
-			<Item Name="Shooter Setpoints.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Setpoints.ctl"/>
-			<Item Name="Shooter Operations.ctl" Type="VI" URL="../Shooter/Implementation/Shooter Operations.ctl"/>
-			<Item Name="Shooter Controller Interactive Check.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Controller Interactive Check.vi"/>
-			<Item Name="Read Shooter Operation.vi" Type="VI" URL="../Shooter/Commands/Read Shooter Operation.vi"/>
-			<Item Name="Shooter Command Helper.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Command Helper.vi"/>
-			<Item Name="Shooter Published Globals.vi" Type="VI" URL="../Shooter/Implementation/Shooter Published Globals.vi"/>
-			<Item Name="Shooter Controller Initialization.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Controller Initialization.vi"/>
-			<Item Name="Shooter Check for New Command.vi" Type="VI" URL="../Shooter/Implementation/Infrastructure/Shooter Check for New Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
