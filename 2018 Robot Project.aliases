@@ -1,9 +1,5 @@
 [My Computer]
-<<<<<<< HEAD
-My Computer = "10.56.66.89"
-=======
-My Computer = "172.17.120.95"
->>>>>>> bcc3e4b53016715b8c6597c4202df229bf944d8f
+My Computer = "172.17.120.112"
 
 [Target]
 Target = "10.56.66.2"
